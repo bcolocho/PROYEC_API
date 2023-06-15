@@ -7,6 +7,14 @@ import Creadores from './Api creadores'
 export default function Header() {
     return (
         <BrowserRouter>
+            <header>
+                <nav>
+                    <li>
+                        
+                    </li>
+                </nav>
+            </header>
+
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path='/personajes' element={<Personajes />}/>
