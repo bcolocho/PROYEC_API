@@ -6,11 +6,6 @@
     text-align: left;
 }
 
-.enlace:hover{
-    color:rgb(255, 255, 255);
-}
-
-
 body{
     background-image: url(../img/background.jpg);
     background-size: cover;
