@@ -29,7 +29,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="d-grid gap-2 d-md-flex position-relative">
-                        <button className="btn btn-success me-md-2" type="button">Logaut</button>
+                        <button className="btn btn-success me-md-2" type="button">Logout</button>
                     </div>
                 </nav>
             </header>
