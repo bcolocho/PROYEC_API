@@ -5,3 +5,4 @@ export default function Personajes() {
     <div>Personajes</div>
   )
 }
+
