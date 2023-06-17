@@ -1,6 +1,9 @@
 import React from 'react'
 import rick_morty from '../assets/img/imagen_1.png'
 import logo from '../assets/img/logo.png'
+import frase from '../assets/img/frase.png'
+import imagen from '../assets/img/diseño_1.png'
+
 
 export default function Home() {
   return (
@@ -22,6 +25,24 @@ export default function Home() {
                     <img src={rick_morty} alt="api_rick_and_morty" className='img-fluid' />
                 </div>
             </div>
+
+            <div className='container text-white  py-5 '>
+                <p className="h5">API Creadores</p>
+            </div>
+
+            <div className='row d-flex justify-content-center'>
+            <div className='container col-md-6 col-sm-12 py-5'>
+                    <img src={imagen} alt="diseño" className='img-fluid w-75' />
+                </div>
+                <div className=' container col-md-6 col-sm-12 py-5'>
+                    <img src={frase} alt="imagen_serie" className='img-fluid w-75'/>
+                </div>
+            </div> 
+
+            <div className='container text-white py-5 mt-5'>
+                <p className="h5">Personajes</p>
+            </div>
+
         </section>
 
     </main>
