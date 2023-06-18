@@ -31,7 +31,7 @@ export default function Home() {
             </div>
 
             <div className='row d-flex justify-content-center'>
-            <div className='container col-md-6 col-sm-12 py-5'>
+                <div className='container col-md-6 col-sm-12 py-5'>
                     <img src={imagen} alt="diseño" className='img-fluid w-75' />
                 </div>
                 <div className=' container col-md-6 col-sm-12 py-5'>
@@ -39,12 +39,26 @@ export default function Home() {
                 </div>
             </div> 
 
-            <div className='container text-white py-5 mt-5'>
-                <p className="h5">Personajes</p>
+            <div className='container text-white py-5 mt-5 text-center'>
+                <p className="h5">UNA RECORDADITA</p>
             </div>
 
-        </section>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col-md-4 col-md-sm-12'>
+                        <iframe width="320" height="560" src="https://www.youtube.com/embed/G9WMb-xuORQ" title="#rickandmorty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
 
+                    <div className='col-md-4 col-md-sm-12'>
+                        <iframe width="320" height="560" src="https://www.youtube.com/embed/aBlRRk-qM88" title="#rickandmorty RickandMortyFullepisode #44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div className='col-md-4 col-md-sm-12'>
+                        <iframe width="320" height="560" src="https://www.youtube.com/embed/0yS_xw0DTlU" title="#RickandMorty #RickandMortyFullepisode #RickandMorty #short 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
   )
 }
