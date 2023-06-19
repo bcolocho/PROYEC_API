@@ -1,7 +1,7 @@
 import Header from './components/Header'
-import './assets/css/style.css'
+import './assets/css/style_boris.css'
 
-function App() {
+function App_boris() {
   
   return (
     <>
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App_boris

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100;200;300;400;500;600;700 & display=swap');
+
+.enlace {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+.imgserie{
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px #3FB2BF;
+    border-style:solid;    
+    border-width: 5px;
+    border-color:  #3FB2Bf;
+    border-radius: 15px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.card .front {
+    transform: perspective(600px) rotateY(0deg);   
+}
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.card .front h5 {
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    height: 45px;
+   
+    color: #032336b3;  
+    text-align: center;
+    font-weight: bold;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;    
+    font-size: 12px;
+}
+
+.card .back h5 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
