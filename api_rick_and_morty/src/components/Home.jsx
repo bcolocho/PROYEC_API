@@ -50,16 +50,16 @@ export default function Home() {
                 </div>
 
                 <div className='row'>
-                    <div className="shorts_1 col-md-3">
+                    <div className="shorts_1 col-lg-3 col-md-6">
                         <iframe width="250" height="450" src="https://www.youtube.com/embed/0yS_xw0DTlU" title="#RickandMorty #RickandMortyFullepisode #RickandMorty #short 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_2 col-md-3">
+                    <div className="shorts_2 col-lg-3 col-md-6">
                         <iframe width="250" height="450" src="https://www.youtube.com/embed/aBlRRk-qM88" title="#rickandmorty RickandMortyFullepisode #44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_3 col-md-3">
+                    <div className="shorts_3 col-lg-3 col-md-6">
                         <iframe width="250" height="450" src="https://www.youtube.com/embed/qNm-5R21C6k" title="#rickandmorty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_4 col-md-3">
+                    <div className="shorts_4 col-lg-3 col-md-6">
                         <iframe width="250" height="450" src="https://www.youtube.com/embed/LuVdCKumTWU" title="#rickandmorty RickandMortyFullepisode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
