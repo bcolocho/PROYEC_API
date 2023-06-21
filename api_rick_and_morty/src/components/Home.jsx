@@ -24,18 +24,14 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='titulo text-white py-5'>
-                    <h4>Creadores</h4>
-                </div>
-
-                <div className='row'>
+                <div className='row py-5'>
                     <div className='imgserie col-md-4'>
                         <img src={imagen} alt="api_rick_and_morty" className='img-fluid' />
                     </div>
 
                     <div className='col-md-8 text-white py-5'>
                         <p className='paragraph-descripcion fw-bolder fs-2'>
-                            En este API podrás encontrar a tus personajes favoritos, series y mucho más. <br />
+                            En este API podrás buscar a tus personajes favoritos, series y mucho más. <br />
                         </p>
 
                         <p className='paragraph-produccion-creacion fst-italic fs-4 '>
@@ -49,18 +45,18 @@ export default function Home() {
                     <h4>Shorts</h4>
                 </div>
 
-                <div className='row'>
-                    <div className="shorts_1 col-lg-3 col-md-6">
-                        <iframe width="200" height="400" src="https://www.youtube.com/embed/0yS_xw0DTlU" title="#RickandMorty #RickandMortyFullepisode #RickandMorty #short 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div className='shorts row gap-5 justify-content-center'>
+                    <div className=" shorts1 col-lg-3 col-md-6">
+                        <iframe width="200" height="350" src="https://www.youtube.com/embed/0yS_xw0DTlU" title="#RickandMorty #RickandMortyFullepisode #RickandMorty #short 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_2 col-lg-3 col-md-6">
-                        <iframe width="200" height="400" src="https://www.youtube.com/embed/aBlRRk-qM88" title="#rickandmorty RickandMortyFullepisode #44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className=" shorts2 col-lg-3 col-md-6">
+                        <iframe width="200" height="350" src="https://www.youtube.com/embed/aBlRRk-qM88" title="#rickandmorty RickandMortyFullepisode #44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_3 col-lg-3 col-md-6">
-                        <iframe width="200" height="400" src="https://www.youtube.com/embed/qNm-5R21C6k" title="#rickandmorty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className=" shorts3 col-lg-3 col-md-6">
+                        <iframe width="200" height="350" src="https://www.youtube.com/embed/qNm-5R21C6k" title="#rickandmorty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div className="shorts_4 col-lg-3 col-md-6">
-                        <iframe width="200" height="400" src="https://www.youtube.com/embed/LuVdCKumTWU" title="#rickandmorty RickandMortyFullepisode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div className=" shorts4 col-lg-3 col-md-6">
+                        <iframe width="200" height="350" src="https://www.youtube.com/embed/LuVdCKumTWU" title="#rickandmorty RickandMortyFullepisode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
 
