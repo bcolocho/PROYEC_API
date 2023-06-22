@@ -43,9 +43,6 @@ export default function Personajes() {
                   </div>
                 </div>
               </div>
-
-
-
             )
           })
         }

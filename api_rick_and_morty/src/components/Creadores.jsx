@@ -1,7 +1,5 @@
-import React from "react";
+import React from 'react'
 
-
-import Creadores from './Creadores'
 
 export default function creadores() {
   return (
