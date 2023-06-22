@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import paginations from './components/paginations'
+
 
 export default function Personajes() {
   const [Personage, setPersonage] = useState([]);
-  let [pagNumber, setPageNumber] = useState(1);
   const url = "https://rickandmortyapi.com/api/character";
 
   const obtenerPersonage = (url) => {
