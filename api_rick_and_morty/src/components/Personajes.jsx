@@ -1,26 +1,59 @@
 import React, { useState, useEffect } from 'react'
+import Paginacion from './Paginacion'
 import axios from 'axios'
 
 
 export default function Personajes() {
+  const [info, setInfo] = useState([]);
   const [Personage, setPersonage] = useState([]);
-  const url = "https://rickandmortyapi.com/api/character";
+  const url = "https://rickandmortyapi.com/api/character"
+
 
   const obtenerPersonage = (url) => {
     axios.get(url).then((response) => {
       setPersonage(response.data.results);
+      setInfo(response.data.info);
     }).catch((error) => {
       console.log(error);
     });
+  };
+
+  const handleNextPage = () => {
+    obtenerPersonage(info.next);
+    window.scrollTo(0, 0);
+  };
+
+  const handlePreviousPage = () => {
+    obtenerPersonage(info.prev);
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
     obtenerPersonage(url);
   }, []);
 
+
   return (
+
     <div className='container'>
       <h1 className='enlace fs-4 fw-bold text-center mt-4 text-white'>PERSONAJES</h1>
+      <div>
+        <nav>
+          <ul className="pagination justify-content-star gap-3 mt-5">
+            {info.prev ? (
+              <li className="page-item">
+                <button className="btn btn-success text-warning" onClick={handlePreviousPage}>Previous</button>
+              </li>
+            ) : null}
+            {info.next ? (
+              <li className="page-item">
+                <button className="btn btn-success text-warning" onClick={handleNextPage}>Next</button>
+              </li>
+            ) : null}
+          </ul>
+        </nav>
+      </div>
+
       <div className='row my-5'>
         {
           Personage.map((Person, index) => {
@@ -47,7 +80,25 @@ export default function Personajes() {
           })
         }
       </div>
+
+      <div>
+        <nav>
+          <ul className="pagination justify-content-star gap-3 mb-5">
+            {info.prev ? (
+              <li className="page-item">
+                <button className="btn btn-success text-warning" onClick={handlePreviousPage}>Previous</button>
+              </li>
+            ) : null}
+            {info.next ? (
+              <li className="page-item">
+                <button className="btn btn-success text-warning" onClick={handleNextPage}>Next</button>
+              </li>
+            ) : null}
+          </ul>
+        </nav>
+      </div>
     </div>
+
   )
 }
 

@@ -59,9 +59,6 @@ export default function Home() {
                         <iframe width="200" height="350" src="https://www.youtube.com/embed/LuVdCKumTWU" title="#rickandmorty RickandMortyFullepisode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-
-
-
             </section>
         </main>
     )
