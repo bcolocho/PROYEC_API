@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Creadores() {
+
+export default function creadores() {
   return (
-    <div>Creadores</div>
+    <div>Api creadores</div>
   )
 }
