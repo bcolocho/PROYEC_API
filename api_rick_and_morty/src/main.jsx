@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     redirectUri={window.location.origin}>
 
     <React.StrictMode>
-      <App_boris />
+      <App />
     </React.StrictMode>,
 
   </Auth0Provider>
