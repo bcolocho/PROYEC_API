@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Paginacion from './Paginacion'
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 
 export default function Personajes() {
@@ -36,7 +37,14 @@ export default function Personajes() {
   return (
 
     <div className='container'>
-      <h1 className='enlace fs-4 fw-bold text-center mt-4 text-white'>PERSONAJES</h1>
+      <div className='row text-white pt-3'>
+          <div className="col-md-6">
+            <h4 className=''>¿Quieres encontrar tus personajes favoritos?</h4>
+            <p className=''>Disfruta de tus personajes de Ricky y Morty</p>
+            <Link to='/busqueda' className='btn btn-primary'>Busca tu personaje favorito</Link>
+          </div>
+        </div>
+      
       <div>
         <nav>
           <ul className="pagination justify-content-star gap-3 mt-5">
