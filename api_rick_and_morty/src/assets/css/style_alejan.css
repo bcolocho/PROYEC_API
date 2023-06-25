@@ -11,8 +11,13 @@ body {
 }
 
 .text{
-  color: white;
-  text-shadow: 1px 1px 2px rgb(48, 209, 99), 0 0 25px rgb(27, 218, 116), 0 0 5px rgb(32, 227, 48);
+  color: rgb(208, 226, 4);
+  text-shadow: 1px 1px 2px rgb(167, 219, 34), 0 0 25px rgb(189, 228, 13), 0 0 5px rgb(201, 227, 32);
+}
+
+.text1{
+  color: rgb(228, 228, 228);
+  text-shadow: 1px 1px 2px rgb(247, 247, 247), 0 0 25px rgb(248, 249, 246);
 }
 
 .cardss{
