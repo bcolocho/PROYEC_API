@@ -10,21 +10,9 @@ body {
     background-position: center;
 }
 
-.cardss{
-  box-shadow: 10px 5px 5px black;
-}
-
-.feature{
-  filter: drop-shadow(2px 4px 12px black);
-}
-
-.fondos{
-  background-color: rgb(202, 200, 200, 0.20);
-}
-
-.cardss h3{
-  color: yellowgreen;
-  filter: drop-shadow(2px 4px 12px black);
+.text{
+  color: white;
+  text-shadow: 1px 1px 2px rgb(48, 209, 99), 0 0 25px rgb(27, 218, 116), 0 0 5px rgb(32, 227, 48);
 }
 
 .cardss{
