@@ -41,14 +41,14 @@ export default function Buscar() {
     return (
         <div className='text-white'>
             <div className="container">
-                <h1 className='text-center pb-2 py-5'>Encuentra a tu Personaje Favorito</h1>
+                <h1 className='text-center pb-2 text-info py-5'>Encuentra a tu Personaje Favorito</h1>
                 <div className="row pb-2">
-                    <div className="col-sm-12 col-md-6">
+                    <div className="col-sm-12 col-md-6 py-5">
                         <form onSubmit={handleSubmit}>
-                            <label htmlFor="" className='pb-2'>Ingrese el nombre del personaje</label>
+                            <label htmlFor="" className='pb-2 text-warning'>Ingrese el nombre del personaje</label>
                             <input type="text" className='form-control mb-2' onChange={handleName} />
 
-                            <label htmlFor="" className='me-3'>Seleccione el estado del personaje</label>
+                            <label htmlFor="" className='me-3 py-4 text-warning'>Seleccione el estado del personaje</label>
                             <select name="" id="" className='me-3' onChange={handleClick}>
                                 <option value="alive">VIVO</option>
                                 <option value="dead">MUERTO</option>

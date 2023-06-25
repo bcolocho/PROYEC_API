@@ -30,11 +30,11 @@ export default function Home() {
                     </div>
 
                     <div className='col-md-8 text-white py-5'>
-                        <p className='paragraph-descripcion fw-bolder fs-2'>
-                            En este API podrás buscar a tus personajes favoritos, series y mucho más. <br />
+                        <p className='paragraph-descripcion fw-bolder fs-3 text-info text-center'>
+                            En este sitio web podrás realizar consulta de tus personajes. <br />
                         </p>
 
-                        <p className='paragraph-produccion-creacion fst-italic fs-4 '>
+                        <p className='paragraph-produccion-creacion fst-italic fs-1 text-danger text-center'>
                             <b>¡WUBBA LUBBA DUB DUB!</b><br />
 
                         </p>
@@ -42,8 +42,8 @@ export default function Home() {
                 </div>
 
                 <div className='titulo text-white text-center py-4'>
-                    <h3>Shorts</h3>
-                    <h5 className='fst-italic'>¡Esta es una recordadita!... Disfrutalo. </h5>
+                    <h2>Shorts</h2>
+                    <h5 className='fst-italic'><b className='text-warning'>¡Esta es una recordadita!...</b> Disfrutalo. </h5>
                 </div>
 
                 <div className='shorts row gap-5 justify-content-center'>

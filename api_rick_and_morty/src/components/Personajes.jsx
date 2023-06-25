@@ -37,7 +37,7 @@ export default function Personajes() {
   return (
 
     <div className='container'>
-      <h1 className='enlace fs-4 fw-bold text-center mt-4 text-white'>PERSONAJES</h1>
+      <h1 className='enlace fs-3 fw-bold text-center mt-5 text-white'>PERSONAJES</h1>
       <div>
         <nav>
           <ul className="pagination justify-content-center gap-3 mt-5">
