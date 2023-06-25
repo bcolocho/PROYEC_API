@@ -37,18 +37,7 @@ export default function Personajes() {
   return (
 
     <div className='container'>
-<<<<<<< HEAD
-      <h1 className='enlace fs-4 fw-bold text-center mt-4 text-white py-5'>PERSONAJES</h1>
-=======
-      <div className='row text-white pt-3'>
-          <div className="col-md-6">
-            <h4 className=''>¿Quieres encontrar tus personajes favoritos?</h4>
-            <p className=''>Disfruta de tus personajes de Ricky y Morty</p>
-            <Link to='/busqueda' className='btn btn-primary'>Busca tu personaje favorito</Link>
-          </div>
-        </div>
-      
->>>>>>> 86e7d9604a06a0f554965f8cc46f830b87afaaa9
+      <h1 className='enlace fs-4 fw-bold text-center mt-4 text-white'>PERSONAJES</h1>
       <div>
         <nav>
           <ul className="pagination justify-content-center gap-3 mt-5">
