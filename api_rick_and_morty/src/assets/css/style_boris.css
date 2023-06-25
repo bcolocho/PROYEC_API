@@ -5,6 +5,24 @@ body {
 
 .imgserie {
     align-items: center;
+    width: 380px;
+    height: 380px;
+    filter: drop-shadow(0px 7px 7px #eeff00);
+    animation: rotar 9s linear infinite;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.paragraph2-descripcion {
+    padding: 25px;
 }
 
 .shorts {

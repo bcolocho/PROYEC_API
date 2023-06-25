@@ -47,7 +47,6 @@ export default function Buscar() {
                         <form onSubmit={handleSubmit}>
                             <label htmlFor="" className='pb-2 text-warning'>Ingrese el nombre del personaje</label>
                             <input type="text" className='form-control mb-2' onChange={handleName} />
-
                             <label htmlFor="" className='me-3 py-4 text-warning'>Seleccione el estado del personaje</label>
                             <select name="" id="" className='me-3' onChange={handleClick}>
                                 <option value="alive">VIVO</option>
@@ -96,7 +95,6 @@ export default function Buscar() {
                                                         <p>Location: {personaje.location.name}</p>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         )
                                     })
@@ -105,10 +103,7 @@ export default function Buscar() {
                         )
                     }
                 </div>
-
-
             </div>
-
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function Home() {
                 <div className='row'>
                     <div className='col-md-8 text-white'>
                         <img src={logo} alt="logo_serie" className='img-fluid' />
-                        <p className='paragraph-descripcion fw-bolder fs-5'>
+                        <p className='paragraph1-descripcion fw-bolder fs-5'>
                             Rick, un científico alcohólico, secuestra a su influenciable nieto, Morty, para vivir peligrosas aventuras a través de nuestro cosmos y universos paralelos. <br />
                         </p>
                         <p className='paragraph-produccion-creacion fst-italic fs-6'>
@@ -30,8 +30,8 @@ export default function Home() {
                     </div>
 
                     <div className='col-md-8 text-white py-5'>
-                        <p className='paragraph-descripcion fw-bolder fs-3 text-info text-center'>
-                            En este sitio web podrás realizar consulta de tus personajes. <br />
+                        <p className='paragraph2-descripcion fw-bolder fs-4 text-info text-center'>
+                            En este sitio web podrás realizar consulta de tu personaje favorito. <br />
                         </p>
 
                         <p className='paragraph-produccion-creacion fst-italic fs-1 text-danger text-center'>
