@@ -4,6 +4,7 @@ import Buscar from './Buscar'
 import Personajes from './Personajes'
 import Creadores from './Creadores'
 import Logout from "./Logout"
+import Home from './Home'
 
 export default function Header() {
     return (
