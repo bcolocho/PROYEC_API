@@ -41,8 +41,9 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className='titulo text-white text-center py-5'>
-                    <h4>Shorts</h4>
+                <div className='titulo text-white text-center py-4'>
+                    <h3>Shorts</h3>
+                    <h5 className='fst-italic'>¡Esta es una recordadita!... Disfrutalo. </h5>
                 </div>
 
                 <div className='shorts row gap-5 justify-content-center'>

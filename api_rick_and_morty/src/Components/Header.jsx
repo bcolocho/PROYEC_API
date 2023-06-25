@@ -1,8 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Buscar from './Buscar'
 import Personajes from './Personajes'
 import Creadores from './Creadores'
 import Home from './Home'
+import BuscarPersonaje from './BuscarPersonaje'
 
 export default function Header() {
     return (
@@ -23,6 +25,9 @@ export default function Header() {
                                     <Link className="nav-link active" aria-current="page" to='/personajes'>Personajes</Link>
                                 </li>
                                 <li className="nav-item">
+                                    <Link className="nav-link active" aria-current="page" to='/buscar'>Buscar por personajes</Link>
+                                </li>
+                                <li className="nav-item">
                                     <Link className="nav-link active" aria-current="page" to='/creadores'>Creadores</Link>
                                 </li>
                             </ul>
@@ -36,7 +41,13 @@ export default function Header() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/personajes" element={<Personajes />} />
+                <Route path="/buscar" element={<Buscar />} />
                 <Route path="/creadores" element={<Creadores />} />
+<<<<<<< HEAD
+
+=======
+                <Route path="/busqueda" element={<BuscarPersonaje/>} />
+>>>>>>> 86e7d9604a06a0f554965f8cc46f830b87afaaa9
             </Routes>
         </BrowserRouter>
     )
