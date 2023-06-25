@@ -44,10 +44,14 @@ export default function Header() {
                 <Route path="/buscar" element={<Buscar />} />
                 <Route path="/creadores" element={<Creadores />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 <Route path="/busqueda" element={<BuscarPersonaje/>} />
 >>>>>>> 86e7d9604a06a0f554965f8cc46f830b87afaaa9
+=======
+                <Route path="/busqueda" element={<BuscarPersonaje/>} />
+>>>>>>> 5e3e444b91bdf9ed6e0a1b75b9ecc43dd2a1a609
             </Routes>
         </BrowserRouter>
     )
