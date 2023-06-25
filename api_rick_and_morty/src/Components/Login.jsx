@@ -16,7 +16,7 @@ export default function Login() {
                     <img src={logo} className='w-75'/>
                     <img className='w-25 feature' src={fondo5} />
                     <h2 className='pt-3 text'>¡¡ALISTA LAS MALETAS!!..</h2>
-                    <p className='text1'><i>Ingresa a las realidades pararelas, por que no se visitaran solas....</i></p>
+                    <p className='text1'><i>Ingresa a las realidades paralelas, por que no se visitaran solas....</i></p>
                 </div>
             <div className='login text-center col-md-5 min'>
                 <div className='form'>
