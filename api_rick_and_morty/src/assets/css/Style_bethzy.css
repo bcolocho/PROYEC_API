@@ -1,9 +1,9 @@
-.imagen {
+.imagen-creadores{
     margin: auto;
     height: 240px;
     width: 200px;
 }
-.card {
+.card-creadores{
     background-color: #3FB2EF;
     box-shadow: 5px 5px 10px #EEFF00;
     border-style: solid;

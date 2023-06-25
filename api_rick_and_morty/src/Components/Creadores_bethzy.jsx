@@ -16,8 +16,8 @@ export default function Creadores() {
             <h1 className='text-center my-5 py-4'>Creadores</h1>
             <div className='row'>
                 <div className='col-md-3  mt-5'>
-                    <div class="card" >
-                        <img src={Bethzy} class="imagen card-img-top rounded-circle py-3" alt="avatar"></img>
+                    <div class="card card-creadores" >
+                        <img src={Bethzy} class="imagen-creadores card-img-top rounded-circle py-3" alt="avatar"></img>
                         <div class="card-body">
                             <h5 class="card-title">Bethzabe Ramos</h5>
                             <p class="card-text">Web Developer</p>
@@ -28,8 +28,8 @@ export default function Creadores() {
                     </div>
                 </div>
                 <div className='col-md-3 offset-md-1 mt-5'>
-                    <div className="card">
-                        <img src={Boris} class="imagen card-img-top rounded-circle py-3" alt="avatar"></img>
+                    <div className="card card-creadores">
+                        <img src={Boris} class="imagen-creadores card-img-top rounded-circle py-3" alt="avatar"></img>
                         <div class="card-body">
                             <h5 class="card-title">Boris Colocho</h5>
                             <p class="card-text">Web Developer</p>
@@ -40,8 +40,8 @@ export default function Creadores() {
                     </div>
                 </div>
                 <div className='col-md-3 offset-md-1 mt-5'>
-                    <div class="card">
-                        <img src={Erick} class="imagen card-img-top rounded-circle py-3" alt="avatar"></img>
+                <div className="card card-creadores">
+                        <img src={Erick} class="imagen-creadores card-img-top rounded-circle py-3" alt="avatar"></img>
                         <div class="card-body">
                             <h5 class="card-title">Erick Vasquez</h5>
                             <p class="card-text">Web Developer</p>
@@ -52,8 +52,8 @@ export default function Creadores() {
                     </div>
                 </div>
                 <div className='col-md-3 offset-md-2 mt-5'>
-                    <div class="card">
-                        <img src={Hector} class="imagen card-img-top rounded-circle py-3" alt="avatar"></img>
+                <div className="card card-creadores">
+                        <img src={Hector} class="imagen-creadores card-img-top rounded-circle py-3" alt="avatar"></img>
                         <div class="card-body">
                             <h5 class="card-title">Hector Linares</h5>
                             <p class="card-text">Web Developer</p>
@@ -65,8 +65,8 @@ export default function Creadores() {
                 </div>
 
                 <div className='col-md-3 offset-md-1 mt-5'>
-                    <div class="card">
-                        <img src={Isabel} class="imagen card-img-top rounded-circle py-3" alt="avatar"></img>
+                <div className="card card-creadores">
+                        <img src={Isabel} class="imagen-creadores card-img-top rounded-circle py-3" alt="avatar"></img>
                         <div class="card-body">
                             <h5 class="card-title">Isabel Ramirez</h5>
                             <p class="card-text">Web Developer</p>
