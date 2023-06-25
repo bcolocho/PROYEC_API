@@ -147,6 +147,13 @@ body {
     transform: perspective(600px) rotateY(360deg);
 }
 
+.logo-serie2 {
+    margin-top: 50px;
+    width: 350px;
+    height: 125px;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .card {
         margin: auto;

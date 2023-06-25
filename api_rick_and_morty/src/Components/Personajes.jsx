@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Paginacion from './Paginacion'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
+import logo from '../assets/img/logo.png'
 
 
 export default function Personajes() {
@@ -37,8 +38,12 @@ export default function Personajes() {
   return (
 
     <div className='container'>
-      <h1 className='enlace fs-3 fw-bold text-center mt-5 text-white'>PERSONAJES</h1>
 
+      <div>
+        <img className='logo-serie2' src={logo} alt="imagen" />
+      </div>
+
+      <h1 className='enlace fs-3 fw-bold text-center mt-5 text-white'>PERSONAJES</h1>
       <div>
         <nav>
           <ul className="pagination justify-content-center gap-3 mt-5">
