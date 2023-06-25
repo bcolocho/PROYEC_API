@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Buscar from './Buscar'
 import Personajes from './Personajes'
 import Creadores from './Creadores'
-import Home from './Home'
+import Logout from "./Logout"
 
 export default function Header() {
     return (
@@ -33,7 +33,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="d-grid gap-2 d-md-flex position-relative">
-                        <button className="btn btn-success me-md-2" type="button">Logout</button>
+                        <Logout/>
                     </div>
                 </nav>
             </header>
