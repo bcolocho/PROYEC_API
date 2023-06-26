@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import './assets/css/style_alejan.css'
 import Login from './components/Login'
+import Footer from './Components/Footer'
 import { useAuth0 } from '@auth0/auth0-react'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         isAuthenticated ? (
           <> 
             <Header />
+            <Footer />
           </>
         ) : (
           <Login />
