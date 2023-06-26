@@ -1,3 +1,4 @@
+import React from 'react'
 import './assets/css/style_isabel.css'
 import rickymorty from './assets/img/RickandMorty.png'
 import rickymorty2 from './assets/img/rm2.png'
