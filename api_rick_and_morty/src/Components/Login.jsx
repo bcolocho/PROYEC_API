@@ -1,7 +1,7 @@
 import { useAuth0 } from '@auth0/auth0-react'
 import React from 'react'
 import fondo3 from '../assets/img/imagen_6.png'
-import fondo5 from '../assets/img/imagen_5.jpeg'
+import fondo5 from '../assets/img/imagen_5.png'
 import logo from '../assets/img/logo.png'
 
 
