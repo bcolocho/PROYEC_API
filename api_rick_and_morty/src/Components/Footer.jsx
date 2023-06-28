@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/css/style_isabel.css'
 import rickymorty from '../assets/img/RickandMorty.png'
-import rickymorty2 from '../assets/img/rm2.png'
+
 
 function Footer() {
 
@@ -9,7 +9,7 @@ function Footer() {
     <>
 
       {/* */}
-      <div className="Footer text-bg-dark mt-5">
+      <div className="Footer container-fluid text-bg-dark mt-5">
 
         <div className="row">
           <div className="col-md-4 col-lg-4 ft-1">
