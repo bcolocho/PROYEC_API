@@ -3,9 +3,9 @@
     text-align: center;
 }
 
-.ft-1 p{
-   margin-left: 1rem;
-   
+.ft-1 p {
+    margin-left: 1rem;
+
 }
 
 .p1 {
@@ -14,15 +14,13 @@
 
 .ft-2 {
     color: white;
-   
+
 }
-
-
 
 .ft-2 {
     color: white;
     margin-top: 2rem;
- 
+
 }
 
 .ft-3 {
@@ -30,39 +28,11 @@
     margin-top: 2rem;
 }
 
-.footer-icons i{
-    padding: 0.5rem;
-    background-color: #a6cccc;
-    color:	#60a85f;
-    margin: 0 0.5rem;
-    border-radius: 50%;
-   
-    
-}
-
-.footer-icons {
-    margin: 0 5em;
-    margin-top: 1rem;    
-}
-
-.Last-footer {
-    background-color:	black;
-    color: #60a85f;
-    text-align: center;
-}
 
 .tituloFooter {
-    width: 15em;
-    margin-top: 1rem;
-    
-}
+    width: 15rem;
+    margin-top: 5rem;
 
-.fa-envelope{
-    padding: 0.5rem;
- 
-    color:	#60a85f;
-    margin: 0 0.5rem;
-    border-radius: 50%;
 }
 
 .nav-lin {
@@ -71,25 +41,12 @@
 }
 
 .titulo2 {
-    color:  #a6cccc;
+    color: #a6cccc;
     padding-top: 5%;
 }
 
 .titulo3 {
-    color:  #a6cccc;
+    color: #a6cccc;
     padding-top: 5%;
-}
-
-.rickmorty2 {
-    width: 8rem;
-    position: relative;
-    left: 150px;
-    overflow: hidden;
-    transform: rotate(125dg);
-
-    
-}
-
-.conteiner {
-    width: 100%;
+    text-decoration: none;
 }

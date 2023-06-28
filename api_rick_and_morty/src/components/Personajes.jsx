@@ -38,11 +38,6 @@ export default function Personajes() {
   return (
 
     <div className='container'>
-
-      <div>
-        <img className='logo-serie2' src={logo} alt="imagen" />
-      </div>
-
       <h1 className='enlace fs-3 fw-bold text-center mt-5 text-white'>PERSONAJES</h1>
       <div>
         <nav>
