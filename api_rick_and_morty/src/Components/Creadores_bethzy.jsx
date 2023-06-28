@@ -18,7 +18,7 @@ export default function Creadores() {
                         <div class="card-body">
                             <h5 class="card-title">Bethzabe Ramos</h5>
                             <p class="card-text">Web Developer</p>
-                            <i class="fa-brands fa-square-github"></i>
+                            
                             <p> @Bethramos</p>
 
                         </div>
