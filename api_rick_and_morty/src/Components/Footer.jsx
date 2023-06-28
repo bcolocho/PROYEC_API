@@ -9,7 +9,7 @@ function Footer() {
     <>
 
       {/* */}
-      <div className="Footer container-fluid text-bg-dark mt-5">
+      <div className="Footer container-fluid text-bg-dark mt-5 ">
 
         <div className="row">
           <div className="col-md-4 col-lg-4 ft-1">
