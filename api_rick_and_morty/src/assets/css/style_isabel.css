@@ -51,6 +51,10 @@
     text-decoration: none;
 }
 
+ul li a{
+    text-decoration: none;
+}
+
 .Footer {
    margin-bottom: -10%;
     bottom: 0svb;
@@ -83,4 +87,8 @@
     list-style: none;
     margin-left: -7%;
 }
+ul li a{
+    text-decoration: none;
+}
+
 }
