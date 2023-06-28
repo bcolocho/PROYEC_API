@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Paginacion from './Paginacion'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
-import logo from '../assets/img/logo.png'
+
 
 
 export default function Personajes() {
@@ -13,24 +13,24 @@ export default function Personajes() {
 
   const obtenerPersonage = (url) => {
     axios.get(url).then((response) => {
-      setPersonage(response.data.results);
+      setPersonage(response.data.results); //se obtiene la info de la plataforma
       setInfo(response.data.info);
     }).catch((error) => {
       console.log(error);
     });
   };
 
-  const handleNextPage = () => {
+  const handleNextPage = () => {    // permite obter info compo pagina para obte pagin siguiente que son 42
     obtenerPersonage(info.next);
     window.scrollTo(0, 0);
   };
 
-  const handlePreviousPage = () => {
+  const handlePreviousPage = () => {  // ob paginacion anterior
     obtenerPersonage(info.prev);
     window.scrollTo(0, 0);
   };
 
-  useEffect(() => {
+  useEffect(() => {  // para ejecutar funsion donde se ingre api para obte person
     obtenerPersonage(url);
   }, []);
 
@@ -58,7 +58,7 @@ export default function Personajes() {
 
       <div className='row my-5'>
         {
-          Personage.map((Person, index) => {
+          Personage.map((Person, index) => { //permite llamar los ressultados de person y define indice como llave para resul
             return (
 
               <div className='col-lg-3 col-md-6 col-sm-12 my-4' key={index}>
