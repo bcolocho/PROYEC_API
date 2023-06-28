@@ -16,7 +16,7 @@ function Footer() {
             <a href="/"><img src={rickymorty} className="tituloFooter py-3" alt="" /></a>
           </div>
 
-          <div className="col-md-4 col-lg-4 ft-2">
+          <div className="col-md-4 col-sm-12 col-lg-4 ft-2">
             <h5 className='titulo3 text-white'>Creadores</h5>
             <p> <i class="fa-solid fa-envelope"></i>Boris: boriscolocho2021@gmail.com</p>
             <p> <i class="fa-solid fa-envelope"></i>Erick: topsi_1@hotmail.com</p>
@@ -25,7 +25,7 @@ function Footer() {
             <p> <i class="fa-solid fa-envelope"></i>Isabel: indaisabelrm@gmail.com</p>
           </div>
 
-          <div className="col-md-4 col-lg-4 ft-3 emal-icons">
+          <div className="col-md-4 col-sm-12 col-lg-4 ft-3 emal-icons">
             <h5 className='titulo2 text-white'>Sección</h5>
             <ul>
               <li>
