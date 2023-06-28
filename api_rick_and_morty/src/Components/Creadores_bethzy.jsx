@@ -30,7 +30,7 @@ export default function Creadores() {
                         <div class="card-body">
                             <h5 class="card-title">Boris Colocho</h5>
                             <p class="card-text">Web Developer</p>
-                            <i class="fa-brands fa-square-github"></i>
+                          
                             <p> @Bcolocho</p>
 
                         </div>
@@ -42,7 +42,7 @@ export default function Creadores() {
                         <div class="card-body">
                             <h5 class="card-title">Erick Vasquez</h5>
                             <p class="card-text">Web Developer</p>
-                            <i class="fa-brands fa-square-github"></i>
+                            
                             <p> @ErickVas</p>
 
                         </div>
@@ -54,7 +54,7 @@ export default function Creadores() {
                         <div class="card-body">
                             <h5 class="card-title">Hector Linares</h5>
                             <p class="card-text">Web Developer</p>
-                            <i class="fa-brands fa-square-github"></i>
+                            
                             <p> @Alejaan</p>
 
                         </div>
@@ -67,7 +67,7 @@ export default function Creadores() {
                         <div class="card-body">
                             <h5 class="card-title">Isabel Ramirez</h5>
                             <p class="card-text">Web Developer</p>
-                            <i class="fa-brands fa-square-github"></i>
+                            
                             <p> Isabelrm28</p>
 
                         </div>
