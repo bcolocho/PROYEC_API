@@ -56,3 +56,8 @@
     bottom: 0svb;
 }
 
+@media (max-width: 600px) {
+   .Footer {
+    text-align: center;
+   }
+}
