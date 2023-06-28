@@ -55,9 +55,31 @@
    margin-bottom: -10%;
     bottom: 0svb;
 }
+.footer-icones{
+    padding-top: 3rem;
+
+}
+
+.footer-icones i{
+    
+    margin: 0 .5rem;
+    padding: 0.5rem;
+    background-color: #97ce4c;
+    color: 	#343d46;
+    border-radius: 50%;
+
+}
+
+.fa-envelope {
+    color: #97ce4c;
+    margin: 0 0.5rem;
+}
 
 @media (max-width: 600px) {
    .Footer {
-    text-align: center;
+    text-align: center; 
    }
+   ul {
+    list-style: none;
+}
 }

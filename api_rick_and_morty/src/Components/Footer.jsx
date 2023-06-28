@@ -14,6 +14,13 @@ function Footer() {
         <div className="row">
           <div className="col-md-4 col-lg-4 ft-1">
             <a href="/"><img src={rickymorty} className="tituloFooter py-3" alt="" /></a>
+            <div className='footer-icones'>
+            <i class="fa-brands fa-square-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+
+            </div>
           </div>
 
           <div className="col-md-4 col-sm-12 col-lg-4 ft-2">
